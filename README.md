@@ -4,14 +4,14 @@
 - kafka
 - code-server
 - quarkus
-
-### to be added
 - ansible
 - terraform 
+- harbor
+
+### to be added
 - kubernetes
 - istio
 - knative
-- harbor
 - jupyter
 - tekton
 - quay

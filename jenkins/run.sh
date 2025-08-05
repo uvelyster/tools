@@ -1,5 +1,9 @@
 #!/bin/bash
 
+sudo yum install dnsmasq -y
+sudo sed -i 's/^interface=lo/#interface-lo/g' test
+sudo systemctl restart dnsmasq
+
 docker rm -f jenkins
 
 docker run -d --name jenkins \
