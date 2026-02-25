@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  gather_facts: no
+  tasks:
+  - known_hosts:
+      name: "{{ item }}"
+      key: "{{ lookup('pipe', 'ssh-keyscan -H ' + item) }}"
+      state: present
+    loop: "{{ groups['servers'] }}"

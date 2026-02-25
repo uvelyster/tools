@@ -1,0 +1,5 @@
+[servers]
+test
+
+[servers:vars]
+ansible_ssh_pass=root

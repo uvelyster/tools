@@ -9,6 +9,9 @@ sudo cat <<EOF > /etc/sudoers.d/ansible-user
 ansible_user ALL=(ALL) NOPASSWD:ALL
 EOF
 
+# install docker collection
+# ansible-galaxy collection install community.docker
+
 # default setting is 'StrictHostKeyChecking ask'
 # 
 # echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config
