@@ -7,16 +7,16 @@
 - ansible
 - terraform 
 - harbor
+- jupyter
+- gitlab
+- sonarqube
 
 ### to be added
 - kubernetes
 - istio
 - knative
-- jupyter
 - tekton
 - quay
-- sonarqube
 - artifactory
-- gitlab
 - argoCD
 - ELK / EFK
